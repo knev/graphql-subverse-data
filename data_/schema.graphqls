@@ -1,0 +1,25 @@
+#graphqls
+
+type t_API {
+	name: String
+}
+
+type t_APIs {
+	log_in: t_API,
+	warp_in: t_API
+}
+
+type t_subverse {
+	name: String
+	website: String
+	description: String
+	MAU: Int
+	avatar_system: String
+	apis: t_APIs
+}
+
+# The "Query" type is special: it lists all of the available queries that
+# clients can execute, along with the return type for each. 
+type Query {
+	subverse: [t_subverse]
+}

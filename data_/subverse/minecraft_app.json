@@ -1,0 +1,13 @@
+{
+	"name": "Minecraft (App)",
+	"apis": {
+		"log_in": {
+			"name": "CLI",
+			"programmable": true
+		},
+		"warp_in": {
+			"name": "deeplink",
+			"programmable": true
+		}
+	}
+}

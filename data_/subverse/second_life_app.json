@@ -1,0 +1,17 @@
+{
+	"name": "Second Life (App)",
+	"website": "https://secondlife.com",
+	"description": "",
+	"MAU": 4000,
+	"avatar_system": "",
+	"apis": {
+		"log_in": {
+			"name": "CLI",
+			"programmable": true
+		},
+		"warp_in": {
+			"name": "deeplink",
+			"programmable": true
+		}
+	}
+}

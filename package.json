@@ -1,0 +1,26 @@
+{
+  "version": "0.0.0",
+  "name": "graphql-subverse-list",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "genversion --es6 src/version.ts && tsc",
+    "start": "npm run build && node ./dist/index.js localhost 4466 /Users/dev/Metaverse/IOI.git/graphql-subverse-list.git/data_",
+    "clean": "del dist && echo OK",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@apollo/server": "^4.7.1",
+    "del-cli": "^5.0.0",
+    "graphql": "^16.6.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.2.5",
+    "genversion": "^3.1.1",
+    "typescript": "^5.0.4"
+  }
+}
