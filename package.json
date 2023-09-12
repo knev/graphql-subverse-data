@@ -1,6 +1,6 @@
 {
   "version": "0.0.2",
-  "name": "graphql-subverse-list",
+  "name": "graphql-subverse-data",
   "description": "",
   "main": "index.js",
   "type": "module",

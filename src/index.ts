@@ -57,6 +57,6 @@ const server = new ApolloServer({
 //  3. prepares your app to handle incoming requests
 const { url } = await startStandaloneServer(server, { listen: { host: str_address, port: nr_port } });
 
-console.log(`graphql-subverse-list@${version}, listening at: ${url}`);
+console.log(`graphql-subverse-data@${version}, listening at: ${url}`);
 console.log(`working directory: ${str_working_dir}`);
 
