@@ -2,12 +2,19 @@
 	"name": "Minecraft (App)",
 	"apis": {
 		"log_in": {
-			"name": "CLI",
-			"programmable": true
+			"name": "MC Launcher"
 		},
 		"warp_in": {
-			"name": "deeplink",
+			"name": "MiM",
+			"programmable": false
+		},
+		"import_set_avatar" : {
+			"name": "REST/REST",
 			"programmable": true
+		},
+		"import_asset" : {
+			"name": "World edit",
+			"programmable": false
 		}
 	}
 }

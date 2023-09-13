@@ -2,7 +2,7 @@
 	"name": "Second Life (App)",
 	"website": "https://secondlife.com",
 	"description": "",
-	"MAU": 4000,
+	"MAU": -1,
 	"avatar_system": "",
 	"apis": {
 		"log_in": {
@@ -12,6 +12,21 @@
 		"warp_in": {
 			"name": "deeplink",
 			"programmable": true
+		},
+		"import_set_avatar" : {
+			"name": "in-world",
+			"programmable": false
+		},
+		"import_asset" : {
+			"name": "in-world",
+			"programmable": false
+		},
+		"inventory" : {
+		},
+		"mic_cam_ctrls" : {
+		},
+		"warp_out" : {
+			"name": "HTML"
 		}
 	}
 }

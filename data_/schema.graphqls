@@ -2,11 +2,14 @@
 
 type t_API {
 	name: String
+	programmable: Boolean
 }
 
 type t_APIs {
 	log_in: t_API,
-	warp_in: t_API
+	warp_in: t_API,
+	import_set_avatar: t_API,
+	import_asset: t_API
 }
 
 type t_subverse {

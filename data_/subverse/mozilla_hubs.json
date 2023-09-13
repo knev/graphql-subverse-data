@@ -1,0 +1,26 @@
+{
+	"name": "Mozilla Hubs",
+	"website": "",
+	"apis": {
+		"log_in": {
+			"name": "Web form",
+			"programmable": false
+		},
+		"warp_in": {
+			"name": "HTML",
+			"programmable": true
+		},
+		"import_set_avatar" : {
+			"name": "in-world",
+			"programmable": false
+		},
+		"import_asset" : {
+			"name": "Scene Editor",
+			"programmable": false
+		},
+		"mic_cam_ctrls" : {
+			"name": "on Warp-in",
+			"programmable": false
+		}
+	}
+}
