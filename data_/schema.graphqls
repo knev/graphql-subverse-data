@@ -3,6 +3,7 @@
 type t_API {
 	name: String
 	programmable: Boolean
+	footnote: String
 }
 
 type t_APIs {

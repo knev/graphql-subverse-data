@@ -6,7 +6,8 @@
 		},
 		"warp_in": {
 			"name": "MiM",
-			"programmable": false
+			"programmable": false,
+			"footnote": "Project https://kim.nevelsteen.com/project/mim-web-of-interconnected-block-worlds[MiM, Web of Interconnected Block Worlds^], is discontinued, but did allow for a warp into Minecraft."
 		},
 		"import_set_avatar" : {
 			"name": "REST/REST",
