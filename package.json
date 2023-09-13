@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "build": "genversion --es6 src/version.ts && tsc",
-    "start": "npm run build && node ./dist/index.js localhost 4466 /Users/dev/Metaverse/IOI.git/graphql-subverse-list.git/data_",
+    "start": "cross-env-shell \"npm run build && node ./dist/index.js localhost 4466 \\\"$PWD/data_\\\"\"",
     "clean": "del dist && echo OK",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -20,6 +20,7 @@
   },
   "devDependencies": {
     "@types/node": "^20.2.5",
+    "cross-env": "^7.0.3",
     "genversion": "^3.1.1",
     "typescript": "^5.0.4"
   }
